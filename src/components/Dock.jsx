@@ -5,6 +5,7 @@ import {dockApps} from "#constants/index.js";
 import {useGSAP} from "@gsap/react";
 import useWindowStore from "#store/window.js";
 
+/** Renders the animated app dock and controls its openable windows. */
 const Dock = () => {
     const {openWindow, closeWindow, windows} = useWindowStore();
     const dockRef = useRef(null);
@@ -57,6 +58,13 @@ const Dock = () => {
         }
     }, []);
 
+    /**
+     * Opens or closes the window represented by a dock app.
+     *
+     * Apps marked as unavailable are ignored.
+     *
+     * @param {{id: string, canOpen: boolean}} app - Dock app metadata.
+     */
     const toggleApp = (app) => {
         if (!app.canOpen) return;
 

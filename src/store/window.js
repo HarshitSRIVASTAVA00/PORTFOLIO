@@ -7,6 +7,15 @@ const useWindowStore = create(
         windows: WINDOW_CONFIG,
         nextZIndex: INITIAL_Z_INDEX + 1,
 
+        /**
+         * Opens a configured window and brings it to the front.
+         *
+         * A null or omitted data value preserves the window's existing data.
+         *
+         * @param {string} windowKey - Key of the window in the store.
+         * @param {*} [data=null] - Data to associate with the window.
+         * @throws {TypeError} If the window key is not configured.
+         */
         openWindow: (windowKey, data = null ) =>
             set((state) => {
                 const win = state.windows[windowKey];
@@ -17,6 +26,12 @@ const useWindowStore = create(
             }),
 
 
+        /**
+         * Closes a configured window, clears its data, and resets its stacking order.
+         *
+         * @param {string} windowKey - Key of the window in the store.
+         * @throws {TypeError} If the window key is not configured.
+         */
         closeWindow: (windowKey ) => set((state) => {
             const win = state.windows[windowKey];
             win.isOpen = false;
@@ -25,6 +40,12 @@ const useWindowStore = create(
         }),
 
 
+        /**
+         * Brings a configured window to the front of the stacking order.
+         *
+         * @param {string} windowKey - Key of the window in the store.
+         * @throws {TypeError} If the window key is not configured.
+         */
         focusWindow: (windowKey) => set((state) => {
             const win = state.windows[windowKey];
             win.zIndex = state.nextZIndex++;
