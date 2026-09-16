@@ -57,6 +57,11 @@ const Dock = () => {
         }
     }, []);
 
+    /**
+     * Toggles an openable dock app between open and closed states.
+     *
+     * @param {{id: string, canOpen: boolean}} app - Dock app to toggle.
+     */
     const toggleApp = (app) => {
         if (!app.canOpen) return;
 
