@@ -44,7 +44,7 @@ const dockApps = [
     },
     {
         id: "safari",
-        name: "Articles", // was "Safari"
+        name: "Safari", // was "Safari"
         icon: "safari.png",
         canOpen: true,
     },
@@ -77,40 +77,47 @@ const dockApps = [
 const blogPosts = [
     {
         id: 1,
-        date: "Sep 2, 2025",
-        title:
-            "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-        image: "/images/blog1.png",
-        link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+        title: "HCL GUVI Certification",
+        date: "Issued Sep 2026",
+        image: "/images/guvi-cert.jpg",
+        link: "https://www.guvi.in/share-certificate/3q7yp017v4E5089z37",
     },
     {
         id: 2,
-        date: "Aug 28, 2025",
-        title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-        image: "/images/blog2.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+        title: "IBM AICTE",
+        date: "Issued Jun 2026",
+        image: "/images/ibm-cert.png",
+        link: "https://skills.yourlearning.ibm.com/certificate/share/7491975012ewogICJvYmplY3RUeXBlIiA6ICJBQ1RJVklUWSIsCiAgImxlYXJuZXJDTlVNIiA6ICI3OTgzMDU4UkVHIiwKICAib2JqZWN0SWQiIDogIlBMQU4tOUYxNDNFNkQyNDBDIgp9e77f342025-10",
     },
     {
         id: 3,
-        date: "Aug 15, 2025",
-        title: "The Ultimate Guide to Mastering GSAP Animations",
-        image: "/images/blog3.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+        title: "Make Agentic AI Work for You",
+        date: "Issued Jun 2026",
+        image: "/images/credly-cert.png",
+        link: "https://www.credly.com/badges/6d50aae3-faf5-4214-b889-ff6a4304b073/linked_in_profile",
     },
+    {
+        id: 4,
+        title: "Agentic AI - Skill Up",
+        date: "Issued Jan 2026",
+        image: "/images/gfg-cert.jpg",
+        link: "https://www.geeksforgeeks.org/certificate/d4f31a051f055979cb1769c7579bfecc?utm_source=socials&utm_medium=cc_link",
+    },
+
 ];
 
 const techStack = [
     {
         category: "Frontend",
-        items: ["React.js", "HTML", "TypeScript"],
+        items: ["React.js", "HTML"],
     },
     {
-        category: "Mobile",
-        items: ["React Native", "Expo"],
+        category: "AI and CV",
+        items: ["PyTorch", "Tensorflow", "Numpy", "Pygame"],
     },
     {
-        category: "Styling",
-        items: ["Tailwind CSS", "CSS"],
+        category: "Programming Lang.",
+        items: ["Python", "JavaScript"],
     },
     {
         category: "Backend",
@@ -122,7 +129,7 @@ const techStack = [
     },
     {
         category: "Dev Tools",
-        items: ["Git", "GitHub"],
+        items: ["Git", "GitHub", "Leaflet", "HTML5", ],
     },
 ];
 
@@ -132,28 +139,15 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://github.com/JavaScript-Mastery-Pro",
+        link: "https://github.com/HarshitSRIVASTAVA00",
     },
-    {
-        id: 2,
-        text: "Platform",
-        icon: "/icons/atom.svg",
-        bg: "#4bcb63",
-        link: "https://jsmastery.com/",
-    },
-    {
-        id: 3,
-        text: "Twitter/X",
-        icon: "/icons/twitter.svg",
-        bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
-    },
+
     {
         id: 4,
         text: "LinkedIn",
         icon: "/icons/linkedin.svg",
         bg: "#05b6f6",
-        link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+        link: "https://www.linkedin.com/in/harshitsrivastava0/",
     },
 ];
 
@@ -222,63 +216,53 @@ const WORK_LOCATION = {
     icon: "/icons/work.svg",
     kind: "folder",
     children: [
-        // ▶ Project 1
+        // ▶ Project 1: Aero Health
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "Aero Health",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-10 left-5", // icon position inside Finder
-            windowPosition: "top-[5vh] left-5", // optional: Finder window position
+            position: "top-10 left-5",
+            windowPosition: "top-[5vh] left-5",
             children: [
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "Aero Health Info.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-                        "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-                        "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-                        "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+                        "Aero Health is an AI-assisted real-time air quality monitoring web dashboard.",
+                        "It features a hero video, smooth overlay text, and a discovery section powered by the NASA API.",
+                        "Built with a map-centric geospatial data visualization approach to generate automated health reports."
                     ],
                 },
                 {
                     id: 2,
-                    name: "nike.com",
+                    name: "github-repo",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+                    href: "https://github.com/HarshitSRIVASTAVA00/AeroHEALTH",
                     position: "top-10 right-20",
                 },
                 {
-                    id: 4,
-                    name: "nike.png",
+                    id: 3,
+                    name: "aerohealth.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
-                    position: "top-52 right-80",
-                    imageUrl: "/images/project-1.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 right-20",
+                    position: "top-52 right-40",
+                    imageUrl: "/images/aerohealth-preview.png", // Add screenshot to public/images
                 },
             ],
         },
 
-        // ▶ Project 2
+        // ▶ Project 2: CHESS-ENGINE
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "CHESS-ENGINE",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
@@ -286,52 +270,32 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "AI Resume Analyzer Project.txt",
+                    name: "Chess Engine Info.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 right-10",
                     description: [
-                        "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-                        "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-                        "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-                        "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+                        "A custom-built AI Chess Engine designed to play directly against human opponents.",
+                        "It evaluates board positions, calculates optimal moves, and provides a challenging gameplay experience."
                     ],
                 },
                 {
                     id: 2,
-                    name: "ai-resume-analyzer.com",
+                    name: "github-repo",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+                    href: "https://github.com/HarshitSRIVASTAVA00/CHESS-ENGINE.git",
                     position: "top-20 left-20",
-                },
-                {
-                    id: 4,
-                    name: "ai-resume-analyzer.png",
-                    icon: "/images/image.png",
-                    kind: "file",
-                    fileType: "img",
-                    position: "top-52 left-80",
-                    imageUrl: "/images/project-2.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 left-5",
                 },
             ],
         },
 
-        // ▶ Project 3
+        // ▶ Project 3: TRACKER
         {
             id: 7,
-            name: "Food Delivery App",
+            name: "Real-time Tracker",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-80",
@@ -339,44 +303,90 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "Tracker Info.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-                        "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+                        "A high-performance real-time device tracker application.",
+                        "Designed to precisely monitor and update device locations dynamically on the map."
                     ],
                 },
                 {
                     id: 2,
-                    name: "food-delivery-app.com",
+                    name: "github-repo",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+                    href: "https://github.com/HarshitSRIVASTAVA00/TRACKER",
                     position: "top-10 right-20",
                 },
+            ],
+        },
+
+        // ▶ Project 4: Dogstudio Clone
+        {
+            id: 8,
+            name: "Dogstudio Clone",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "top-52 left-20",
+            windowPosition: "top-[15vh] right-10",
+            children: [
                 {
-                    id: 4,
-                    name: "food-delivery-app.png",
-                    icon: "/images/image.png",
+                    id: 1,
+                    name: "Dogstudio Info.txt",
+                    icon: "/images/txt.png",
                     kind: "file",
-                    fileType: "img",
-                    position: "top-52 right-80",
-                    imageUrl: "/images/project-3.png",
+                    fileType: "txt",
+                    position: "top-5 left-10",
+                    description: [
+                        "A high-fidelity clone of the award-winning website dogstudio.co.",
+                        "Focuses on heavy front-end animations, 3D elements, and smooth scrolling experiences."
+                    ],
                 },
                 {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
+                    id: 2,
+                    name: "github-repo",
+                    icon: "/images/safari.png",
                     kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 right-20",
+                    fileType: "url",
+                    href: "https://github.com/HarshitSRIVASTAVA00/DOGSTUDIO-CLONE.git",
+                    position: "top-10 right-20",
+                },
+            ],
+        },
+
+        // ▶ Project 5: Tribute Webpage
+        {
+            id: 9,
+            name: "Dr. Kalam Tribute",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "bottom-20 right-40",
+            windowPosition: "top-[40vh] left-20",
+            children: [
+                {
+                    id: 1,
+                    name: "Tribute Info.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-5 left-10",
+                    description: [
+                        "An interactive and animated tribute webpage dedicated to Dr. A.P.J. Abdul Kalam.",
+                        "Features a beautifully animated quote slider and an interactive timeline of his life achievements."
+                    ],
+                },
+                {
+                    id: 2,
+                    name: "github-repo",
+                    icon: "/images/safari.png",
+                    kind: "file",
+                    fileType: "url",
+                    href: "https://github.com/HarshitSRIVASTAVA00/tribute-webpage",
+                    position: "top-10 right-20",
                 },
             ],
         },
@@ -392,45 +402,36 @@ const ABOUT_LOCATION = {
     children: [
         {
             id: 1,
-            name: "me.png",
+            name: "harshit-profile.jpeg",
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            imageUrl: "/images/harshit-profile.jpeg", // Add a nice headshot here
         },
         {
             id: 2,
-            name: "casual-me.png",
+            name: "marathon-run.png",
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
             position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
+            imageUrl: "/images/running.jpg", // A photo of your 21km run if you have one!
         },
         {
             id: 3,
-            name: "conference-me.png",
-            icon: "/images/image.png",
-            kind: "file",
-            fileType: "img",
-            position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
-        },
-        {
-            id: 4,
-            name: "about-me.txt",
+            name: "about-harshit.txt",
             icon: "/images/txt.png",
             kind: "file",
             fileType: "txt",
             position: "top-60 left-5",
-            subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            subtitle: "Meet Harshit Srivastava",
+            image: "/images/harshit-profile.jpeg",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-                "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+                "Hey! I’m Harshit 👋, a Computer Science and Engineering undergrad at Rajarshi Rananjay Sinh Institute of Management and Technology.",
+                "I specialize in full-stack web development, Artificial Intelligence, and IoT. I love bridging the gap between software and the real world, whether that is building geospatial dashboards or wiring up ESP32 microcontrollers for gesture-controlled rovers.",
+                "When I'm not deep into React, building computer vision models with MediaPipe, or preparing for GATE, I like to stay active.",
+                "You can usually find me training for my next 21km half-marathon, or tuning up my HP Victus to drop into a game of Call of Duty, Outlast Trials, or Hogwarts Legacy."
             ],
         },
     ],
@@ -449,8 +450,6 @@ const RESUME_LOCATION = {
             icon: "/images/pdf.png",
             kind: "file",
             fileType: "pdf",
-            // you can add `href` if you want to open a hosted resume
-            // href: "/your/resume/path.pdf",
         },
     ],
 };
