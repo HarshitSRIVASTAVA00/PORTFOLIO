@@ -265,7 +265,7 @@ const WORK_LOCATION = {
             name: "CHESS-ENGINE",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-52 right-80",
+            position: "top-10 right-58",
             windowPosition: "top-[20vh] left-7",
             children: [
                 {
@@ -364,7 +364,7 @@ const WORK_LOCATION = {
             name: "Dr. Kalam Tribute",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "bottom-20 right-40",
+            position: "bottom-35 right-40",
             windowPosition: "top-[40vh] left-20",
             children: [
                 {
