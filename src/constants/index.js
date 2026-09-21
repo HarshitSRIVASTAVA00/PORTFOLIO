@@ -182,19 +182,27 @@ const photosLinks = [
 const gallery = [
     {
         id: 1,
-        img: "/images/gal1.png",
+        img: "/images/gal1.jpeg",
     },
     {
         id: 2,
-        img: "/images/gal2.png",
+        img: "/images/gal2.jpg",
     },
     {
         id: 3,
-        img: "/images/gal3.png",
+        img: "/images/gal3.jpg",
     },
     {
         id: 4,
-        img: "/images/gal4.png",
+        img: "/images/gal4.jpg",
+    },
+    {
+        id: 5,
+        img: "/images/gal5.jpg",
+    },
+    {
+        id: 6,
+        img: "/images/gal6.jpg",
     },
 ];
 
@@ -223,7 +231,7 @@ const WORK_LOCATION = {
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-5",
-            windowPosition: "top-[5vh] left-5",
+            windowPosition: "top-[5vh] left-9",
             children: [
                 {
                     id: 1,
@@ -254,7 +262,7 @@ const WORK_LOCATION = {
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-40",
-                    imageUrl: "/images/aerohealth-preview.png", // Add screenshot to public/images
+                    imageUrl: "/images/aerohealth-preview.jpg", // Add screenshot to public/images
                 },
             ],
         },
@@ -289,6 +297,15 @@ const WORK_LOCATION = {
                     href: "https://github.com/HarshitSRIVASTAVA00/CHESS-ENGINE.git",
                     position: "top-20 left-20",
                 },
+                {
+                    id: 3,
+                    name: "chessengine.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-52 right-40",
+                    imageUrl: "/images/chessengine-preview.jpg",
+                },
             ],
         },
 
@@ -322,6 +339,16 @@ const WORK_LOCATION = {
                     href: "https://github.com/HarshitSRIVASTAVA00/TRACKER",
                     position: "top-10 right-20",
                 },
+                {
+                    id: 3,
+                    name: "tracker.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-52 right-40",
+                    imageUrl: "/images/tracker-preview.jpg",
+                },
+
             ],
         },
 
@@ -355,6 +382,15 @@ const WORK_LOCATION = {
                     href: "https://github.com/HarshitSRIVASTAVA00/DOGSTUDIO-CLONE.git",
                     position: "top-10 right-20",
                 },
+                {
+                    id: 3,
+                    name: "dogstudioclone.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-52 right-40",
+                    imageUrl: "/images/dogstudio-preview.jpg",
+                },
             ],
         },
 
@@ -365,7 +401,7 @@ const WORK_LOCATION = {
             icon: "/images/folder.png",
             kind: "folder",
             position: "bottom-35 right-40",
-            windowPosition: "top-[40vh] left-20",
+            windowPosition: "top-[45vh] left-7",
             children: [
                 {
                     id: 1,
@@ -376,7 +412,8 @@ const WORK_LOCATION = {
                     position: "top-5 left-10",
                     description: [
                         "An interactive and animated tribute webpage dedicated to Dr. A.P.J. Abdul Kalam.",
-                        "Features a beautifully animated quote slider and an interactive timeline of his life achievements."
+                        "Features a beautifully animated quote slider and an interactive timeline of his life achievements.",
+                        "My first ever small project."
                     ],
                 },
                 {
@@ -387,6 +424,15 @@ const WORK_LOCATION = {
                     fileType: "url",
                     href: "https://github.com/HarshitSRIVASTAVA00/tribute-webpage",
                     position: "top-10 right-20",
+                },
+                {
+                    id: 3,
+                    name: "tribute.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-52 right-40",
+                    imageUrl: "/images/tribute-preview.jpg",
                 },
             ],
         },
